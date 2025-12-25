@@ -1,4 +1,8 @@
 import os
+from keep_alive import keep_alive
+keep_alive()
+
+bot = bot(tokeb=os.environ.get('token'))
 import json
 import logging
 import asyncio
