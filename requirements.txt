@@ -1,7 +1,2 @@
 aiogram==3.9.5
-flask
-python-telegram-bot
-python-telegram-bot==20.7
-Pillow
-python-dotenv
-requests
+pip>=23.3
