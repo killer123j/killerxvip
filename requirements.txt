@@ -3,5 +3,7 @@ flask
 python-telegram-bot
 requests
 python-telegram-bot==20.7
+aiohttp==3.9.5
 qrcode
-pillow
+Pillow
+
