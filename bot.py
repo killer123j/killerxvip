@@ -30,10 +30,10 @@ from telegram.ext import (
 from telegram.constants import ParseMode
 
 # ==================== CONFIGURATION ====================
-BOT_TOKEN = "8379260877:AAGSBMH3V_PQT0SO1LF-txcwPoyIysBPD70"
-ADMIN_CHAT_ID = 1728951776  # Changed admin chat ID
-DATABASE_CHAT_ID = 7445817691  # This chat acts as our database
-ADMIN_PASSWORD = "killer123"
+BOT_TOKEN = os.getenv("8379260877:AAHFpHyQ160STBAl_wA0iNN7-S6x5ZMB2hY")
+ADMIN_PASSWORD = os.getenv("killer123")
+ADMIN_CHAT_ID = int(os.getenv("1728951776"))
+DATABASE_CHAT_ID = int(os.getenv("7445817691"))
 
 # Twitter Account Price
 TWITTER_PRICE = 5 # 5₹ per account
