@@ -2,8 +2,6 @@ aiogram==2.23.1
 flask
 python-telegram-bot
 python-telegram-bot==20.7
-aiogram==2.23.1
 Pillow
 python-dotenv
 requests
-
