@@ -27,6 +27,20 @@ from telegram.ext import (
     ContextTypes,
     ConversationHandler
 )
+from aiohttp import web
+
+async def home(request):
+    return web.Response(text="Bot is running 🚀")
+
+app = web.Application()
+app.router.add_get("/", home)
+
+if __name__ == "__main__":
+    web.run_app(
+        app,
+        host="0.0.0.0",
+        port=10000  # Render default
+    )
 from telegram.constants import ParseMode
 
 # ==================== CONFIGURATION ====================
