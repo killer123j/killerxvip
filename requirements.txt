@@ -1,9 +1,9 @@
 aiogram==2.23.1
 flask
 python-telegram-bot
-requests
 python-telegram-bot==20.7
-aiohttp==3.9.5
-qrcode
+aiogram==2.23.1
 Pillow
+python-dotenv
+requests
 
